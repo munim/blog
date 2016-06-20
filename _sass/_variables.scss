@@ -1,0 +1,30 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+$darkBlue: #2A557F;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+@import 'https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Raleway:400,400i,700,700i';
+
+// Font stacks
+$helvetica: 'Raleway', Helvetica, Arial, sans-serif;
+$helveticaNeue: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Raleway, Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

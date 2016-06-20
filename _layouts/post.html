@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="info">
+    <span class="block">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span>Abdul Munim</span>
+    </span>
+    <span class="block">
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <span>{{ page.date | date: "%B %e, %Y" }}</span>
+    </span>
+    <span class="block">
+      {% for tag in page.tags %}
+      <a href='#' class="tag"><i class="fa fa-tag" aria-hidden="true"></i> {{tag}}</a>
+      {% endfor %}
+    </span>
+  </div>
+
+  {% include disqus.html %}
+</article>
