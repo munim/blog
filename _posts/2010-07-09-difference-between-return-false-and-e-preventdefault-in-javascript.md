@@ -2,6 +2,7 @@
 layout: post
 title: "Difference between “return false” and “e.preventDefault()” in JavaScript"
 excerpt_separator: <!--more-->
+description: Understand the inside between return false and e.preventDefault
 tags:
     - javascript
 ---

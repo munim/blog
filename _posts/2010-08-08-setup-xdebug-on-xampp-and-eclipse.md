@@ -12,7 +12,7 @@ Before proceeding with the setup, it’s recommended to note down few things whi
 - Your PHP version. Create a PHP file with `<?php phpinfo(); ?>` to get the version
 - Your Windows version (32-bit or 64-bit). Check System Properties.
 
-Now go to XDebug Download page and you will see Windows binaries with having some version information.
+Now go to XDebug Download page and you will see Windows binaries with having some version information.<!--more-->
 
 XDebug has different build for different version for PHP and OS, and the DLL file name is formatted like:
 
